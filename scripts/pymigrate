@@ -1,0 +1,6 @@
+#! /usr/bin/python
+
+from pymigrate import migrate
+
+if __name__ == '__main__':
+    migrate.main()

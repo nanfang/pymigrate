@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from distutils.core import setup
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
@@ -12,12 +12,13 @@ setup(
     description = ("Python code as data migrate scripts."),
     license = "BSD",
     keywords = "migrate migration",
-    url = "http://packages.python.org/pymigrate",
+    url = "http://github.com/pymigrate",
     packages=['pymigrate'],
     long_description=read('README'),
+    scripts=['scripts/pymigrate'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
         "License :: OSI Approved :: BSD License",
-        ],
+    ],
 )
