@@ -1,1 +1,4 @@
 .idea
+build/
+pymigrate.egg-info/
+dist/
