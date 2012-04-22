@@ -11,7 +11,7 @@ setup(
     author_email = "nanfang05@gmail.com",
     description = ("Python code as data migrate scripts."),
     license = "BSD",
-    keywords = "migrate migration",
+    keywords = "python migrate migration",
     url = "http://github.com/pymigrate",
     packages=['pymigrate'],
     long_description=read('README'),

@@ -1,1 +1,3 @@
 Use python scripts or what ever self runnable scripts as your migration tool in your system.
+
+Database scripts have to be organized in a folder structure, like demonstrated in following example:
