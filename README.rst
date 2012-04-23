@@ -13,15 +13,15 @@ Usage
 
 Migrate scripts should be in one folder and with a prefix in name as index. The index is the order of execution of the scripts. eg::
 
-    001_create_user_schema.py
-    002_create_group_schema.py
-    003_init_user_data.py
+    MIGRATE_FOLDER/001_create_user_schema.py
+                   002_create_group_schema.py
+                   003_init_user_data.py
 
 Then, run the migrate scripts by::
 
     pymigrate MIGRATE_FOLDER
 
-After migration is done, we can show the trace by:
+After migration is done, we can show the trace by::
 
     pymigrate -t MIGRATE_FOLDER
 
