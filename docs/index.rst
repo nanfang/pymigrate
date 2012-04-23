@@ -1,22 +1,33 @@
-.. pymigrate documentation master file, created by
-   sphinx-quickstart on Tue Apr 17 22:55:15 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-Welcome to pymigrate's documentation!
+Migrate your data and system by Python!
 =====================================
 
-Contents:
+Pymigrate is a tool for you to se python scripts or whatever self runnable scripts as your migration sripts for your data and systme.
 
 .. toctree::
    :maxdepth: 2
 
 
+Usage
+=====
 
-Indices and tables
-==================
+Migrate scripts should be in one folder and with a prefix in name as index. The index is the order of execution of the scripts. eg::
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    MIGRATE_FOLDER/001_create_user_schema.py
+                   002_create_group_schema.py
+                   003_init_user_data.py
+
+Then, run the migrate scripts by::
+
+    pymigrate MIGRATE_FOLDER
+
+After migration is done, we can show the trace by::
+
+    pymigrate -t MIGRATE_FOLDER
+
+When you have new change to apply to the system, just add more scripts into the MIGRATE_FOLDER, and use index for the execution order.
+If you just clear the system(like drop the database and recreate) and want to re-run the migrate sequence, you need clear the trace::
+
+
+    pymigrate -c MIGRATE_FOLDER
 
