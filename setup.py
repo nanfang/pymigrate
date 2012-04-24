@@ -9,7 +9,7 @@ setup(
     version = "0.1",
     author = "Fang Nan",
     author_email = "nanfang05@gmail.com",
-    description = ("Python code as data migrate scripts."),
+    description = ("Pymigrate is a tool for you to use python scripts or whatever self runnable scripts as your migration sripts for your data and systme."),
     license = "BSD",
     keywords = "python migrate migration",
     url = "http://github.com/nanfang/pymigrate",
