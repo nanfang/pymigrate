@@ -12,9 +12,9 @@ setup(
     description = ("Python code as data migrate scripts."),
     license = "BSD",
     keywords = "python migrate migration",
-    url = "http://github.com/pymigrate",
-    packages=['pymigrate'],
-    long_description=read('README'),
+    url = "http://github.com/nanfang/pymigrate",
+    packages=['pymigrate',],
+    long_description=read('README.rst'),
     scripts=['scripts/pymigrate'],
     classifiers=[
         "Development Status :: 3 - Alpha",

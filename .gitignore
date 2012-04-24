@@ -1,4 +1,6 @@
 .idea
+.pypirc
+MANIFEST
 build/
 pymigrate.egg-info/
 dist/

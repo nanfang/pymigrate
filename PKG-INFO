@@ -1,0 +1,32 @@
+Metadata-Version: 1.0
+Name: nannou
+Version: 0.1
+Summary: Compiling template engine based on pattern matching
+Home-page: http://packages.python.org/nannou
+Author: Fang Nan
+Author-email: nanfang05@gmail.com
+License: BSD
+Description: .. include globals.rst
+
+        .. an_example_pypi_project documentation master file, created by
+           sphinx-quickstart on Thu Nov 05 22:55:49 2009.
+           You can adapt this file completely to your liking, but it should at least
+           contain the root `toctree` directive.
+
+        Welcome to pymigrate's documentation!
+        **********************************
+
+        What is pymigrate?
+        ===============
+
+        Use python scripts or what ever self runnable scripts as your migration tool in your system.
+
+        Documentation:
+
+            http://pymigrate.readthedocs.org/
+
+Keywords: python migration migrate
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License

@@ -8,6 +8,24 @@
 :Source: http://github.com/nanfang/pymigrate/
 :Keywords: Python, Migrate
 
+Documentation
+=============
+
+`http://pymigrate.readthedocs.org/ <http://pymigrate.readthedocs.org/>`_
+
+
+Install
+=======
+
+Use pip::
+
+    pip install pymigrate
+
+Use easy_install::
+
+    easy_install pymigrate
+
+
 Usage
 =====
 

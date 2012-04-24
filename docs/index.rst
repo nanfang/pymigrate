@@ -7,6 +7,17 @@ Pymigrate is a tool for you to se python scripts or whatever self runnable scrip
 .. toctree::
    :maxdepth: 2
 
+Install
+=======
+
+Use pip::
+
+    pip install pymigrate
+
+Use easy_install::
+
+    easy_install pymigrate
+
 
 Usage
 =====
