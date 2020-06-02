@@ -2,7 +2,7 @@
 Migrate your data and system by Python!
 =====================================
 
-Pymigrate is a tool for you to use python scripts or whatever self runnable scripts as your migration sripts for your data and systme.
+Pymigrate is a tool for you to use python scripts or whatever self runnable scripts as your migration scripts for your data and system.
 
 .. toctree::
    :maxdepth: 2
